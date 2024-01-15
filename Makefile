@@ -1,2 +1,2 @@
 all:
-	gcc source/main.c -g -m32 -o ASH
+	gcc source/main.c -fsanitize=address -g -m32 -o ASH
